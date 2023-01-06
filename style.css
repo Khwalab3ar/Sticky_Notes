@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+#add-note {
+    padding:5vh;
+    height:2em;
+    width: 20vh;
+    background-color: rgb(39, 89, 55);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.notes{
+    display: grid;
+    grid-template-columns: 10vh 10vh 10vh;
+    overflow: auto;
+}
+.note {
+    height: 10vh;
+    background-color: red;
+    border:
+}
