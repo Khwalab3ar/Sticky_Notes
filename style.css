@@ -1,23 +1,47 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    position: relative;
+    height: 3em;
+    background-color: #275937;
+    width:100%;
+    margin-bottom: 1.5em;
+
+}
+body{
+    /*padding-left: 2vh;*/
 }
 #add-note {
-    padding:5vh;
-    height:2em;
+    position: fixed;
+    right: 0px;
+    height:3em;
     width: 20vh;
-    background-color: rgb(39, 89, 55);
+    background-color: #275937;
     color: #fff;
-    border-radius: 10px;
+}
+#add-note:hover{
+    background-color: #57956b;
+}
+#add-note > p {
+    margin: 10% 15%;
+}
+.exit{
 }
 
 .notes{
     display: grid;
-    grid-template-columns: 10vh 10vh 10vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow: auto;
+    padding-left: 5vh;
 }
 .note {
-    height: 10vh;
-    background-color: red;
-    border:
+    margin: 5% 0 0 0;
+    width: 40vh;
+    height: 40vh;
+    border: 2px solid #064153;
+    border-radius: 5%;
 }
