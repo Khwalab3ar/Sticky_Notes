@@ -29,7 +29,20 @@ body{
 #add-note > p {
     margin: 10% 15%;
 }
+#popup-form{
+    display:none;
+    position: fixed;
+    z-index: 10;
+    left: 25vh;
+    height: 50vh;
+    width: 50vh;
+    background-color: #7cc2d7;
+}
 .exit{
+    height: 5vh;
+    width: 5vh;
+    color: #eb6c6c;
+    margin-left:85%;
 }
 
 .notes{
