@@ -14,8 +14,15 @@
     <body>
         <div id ="popup-form">
             <form name="sticky-note" onsubmit="createNotes()">
-                <label for="inputNotes">Notes</label>
+                <label for="inputNotes"> Create Notes</label>
                 <input type="text" id="inputNotes" name="inputNotes">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id ="edit">
+            <form name="edit-form" id="save">
+                <label for="editNotes">save</label>
+                <input type="text" id="editNotes" name="editNotes">
                 <input type="submit" value="Submit">
             </form>
         </div>

@@ -15,29 +15,6 @@ header{
 body{
     /*padding-left: 2vh;*/
 }
-#add-note {
-    position: fixed;
-    right: 0px;
-    height:3em;
-    width: 20vh;
-    background-color: #275937;
-    color: #fff;
-}
-#add-note:hover{
-    background-color: #57956b;
-}
-#add-note > p {
-    margin: 10% 15%;
-}
-#popup-form{
-    display:none;
-    position: fixed;
-    z-index: 10;
-    left: 25vh;
-    height: 50vh;
-    width: 50vh;
-    background-color: #7cc2d7;
-}
 .exit{
     height: 5vh;
     width: 5vh;
@@ -57,4 +34,32 @@ body{
     height: 40vh;
     border: 2px solid #064153;
     border-radius: 5%;
+}
+.editbtn{
+    width: 5vh;
+    height: 5vh;
+    background-color: #eb6c6c;
+}
+#add-note {
+    position: fixed;
+    right: 0px;
+    height:3em;
+    width: 20vh;
+    background-color: #275937;
+    color: #fff;
+}
+#add-note:hover{
+    background-color: #57956b;
+}
+#add-note > p {
+    margin: 10% 15%;
+}
+#popup-form , #edit{
+    display:none;
+    position: fixed;
+    z-index: 10;
+    left: 25vh;
+    height: 50vh;
+    width: 50vh;
+    background-color: #7cc2d7;
 }
